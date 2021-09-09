@@ -24,23 +24,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
+title: Hyacinth's Blog
+email: clearbamboo@outlook.com
 author: Hyacinth-YX
 copyright: Copyright © 1970-2010
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: This is technical blog of Hyacinth (Harry Yao) about AI, Data science, NLP, Machine Learning and so on, which in forms of papers analysis and trick sharing. 这是姚垿的技术博客，主题包括人工智能、数据科学、自然语言处理和机器学习等，可能有论文讨论和小技巧分享等形式。
 
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://Hyacinth-YX.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/favicon.jpeg" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-  date_format: "%b %d, %Y"
+  date_format: "%Y-%m-%d %H:%M"
 
 # If you want more debug log, you can set true
 # debug: false
@@ -55,34 +52,34 @@ yat:
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "zh-CN"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
+translate_langs:
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
 #
-#   - lang: fr
-#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-#     text: French
-#
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
-#
-#   - lang: ja
-#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-#     text: Japanese
-#
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-#     text: Russian
+  - lang: fr
+    img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+    text: French
+
+  - lang: zh-CN
+    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+    text: Chinese(Simple)
+
+  - lang: ja
+    img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+    text: Japanese
+
+  - lang: ko
+    img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+    text: Korean
+
+  - lang: ru
+    img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
+    text: Russian
 
 # You can choose a theme color
 # Default theme colors as below:
