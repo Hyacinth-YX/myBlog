@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hyacinth-yx.github.io/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hyacinth-yx.github.io/jekyll-theme-yat/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2021-09-21T03:45:37+00:00</updated><id>https://hyacinth-yx.github.io/jekyll-theme-yat/feed.xml</id><title type="html">Hyacinth’s Blog</title><subtitle>This is technical blog of Hyacinth (Harry Yao) about AI, Data science, NLP, Machine Learning and so on, which in forms of papers analysis and trick sharing. 这是姚垿的技术博客，主题包括人工智能、数据科学、自然语言处理和机器学习等，可能有论文讨论和小技巧分享等形式。</subtitle><author><name>Hyacinth-YX</name></author><entry><title type="html">Latex常用符号记录</title><link href="https://hyacinth-yx.github.io/jekyll-theme-yat/cheat/sheet/2021/09/13/latex%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%AE%B0%E5%BD%95.html" rel="alternate" type="text/html" title="Latex常用符号记录" /><published>2021-09-13T00:00:00+00:00</published><updated>2021-09-13T00:00:00+00:00</updated><id>https://hyacinth-yx.github.io/jekyll-theme-yat/cheat/sheet/2021/09/13/latex%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%AE%B0%E5%BD%95</id><content type="html" xml:base="https://hyacinth-yx.github.io/jekyll-theme-yat/cheat/sheet/2021/09/13/latex%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%AE%B0%E5%BD%95.html">&lt;h1 id=&quot;latex常用符号记录&quot;&gt;Latex常用符号记录&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;集合：$\in$ (\in)  ;  $\notin$ (\notin)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;字母:  粗体空心 $\mathbb{R}$ (\mathbb{R})  ;  欧拉体 $\mathfrak{R}$  (\mathfrak{R} ) or \frak{R};  $\mathrm{N}$ \mathrm{N} ; $\mathbf{N}$ \mathbf{N} or \bf{N}; 
+$\mathtt{N}$ \mathtt{N} or \tt{N} ; $\mathcal{N}$ \mathcal{N} or \cal{N}   (ps：\cal和\mathcal作用范围不同，tt frak bf等同)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;向量表示：$\vec{c}$  \vec&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;公式右边的标号：(1)   \tag{1}&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;字母右边的一撇：$a^{\prime}$  a^{\prime}&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;希腊字母&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;字母&lt;/th&gt;
+          &lt;th&gt;输入&lt;/th&gt;
+          &lt;th&gt;字母&lt;/th&gt;
+          &lt;th&gt;输入&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;α A&lt;/td&gt;
+          &lt;td&gt;\alpha \Alpha&lt;/td&gt;
+          &lt;td&gt;ξ $\Xi$&lt;/td&gt;
+          &lt;td&gt;\xi \Xi&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;β B&lt;/td&gt;
+          &lt;td&gt;\beta \Beta&lt;/td&gt;
+          &lt;td&gt;o O	o O&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;γ Γ&lt;/td&gt;
+          &lt;td&gt;\gamma \Gamma&lt;/td&gt;
+          &lt;td&gt;π Π&lt;/td&gt;
+          &lt;td&gt;\pi \Pi&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;δ Δ&lt;/td&gt;
+          &lt;td&gt;\delta \ Delta&lt;/td&gt;
+          &lt;td&gt;ρ ϱ P&lt;/td&gt;
+          &lt;td&gt;\rho \varrho P&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;ε E&lt;/td&gt;
+          &lt;td&gt;\epsilon \Epsilon&lt;/td&gt;
+          &lt;td&gt;σ Σ&lt;/td&gt;
+          &lt;td&gt;\sigma \Sigma&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;ζ Z&lt;/td&gt;
+          &lt;td&gt;\zeta \Zeta&lt;/td&gt;
+          &lt;td&gt;τ T&lt;/td&gt;
+          &lt;td&gt;\tau T&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;η H&lt;/td&gt;
+          &lt;td&gt;\eta \Eta&lt;/td&gt;
+          &lt;td&gt;υ Υ&lt;/td&gt;
+          &lt;td&gt;\upsilon \Upsilon&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;θ ϑ Θ&lt;/td&gt;
+          &lt;td&gt;\theta \vartheta \Theta&lt;/td&gt;
+          &lt;td&gt;ϕ φ Φ&lt;/td&gt;
+          &lt;td&gt;\phi \varphi \Phi&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;ι I&lt;/td&gt;
+          &lt;td&gt;\iota I&lt;/td&gt;
+          &lt;td&gt;χ X&lt;/td&gt;
+          &lt;td&gt;\chi X&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;κ K&lt;/td&gt;
+          &lt;td&gt;\kappa K&lt;/td&gt;
+          &lt;td&gt;ω Ω&lt;/td&gt;
+          &lt;td&gt;\omega \Omega&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;λ Λ&lt;/td&gt;
+          &lt;td&gt;\lambda \Lambda&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;μ $\Mu$&lt;/td&gt;
+          &lt;td&gt;\mu \Mu&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;p&gt;​		      &lt;br /&gt;
+​		               	
+​	                 	
+​		                            	
+​			
+​			
+​			
+​			
+​		ψψ ΨΨ	\psi \Psi
+​			————————————————&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;持续更新中……&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Hyacinth-YX</name></author><category term="cheat" /><category term="sheet" /><category term="Latex" /><category term="语法" /><summary type="html">Latex常用符号记录</summary></entry><entry><title type="html">药物虚拟筛选研究(更新中)</title><link href="https://hyacinth-yx.github.io/jekyll-theme-yat/analysis/2021/09/10/%E8%8D%AF%E7%89%A9%E8%99%9A%E6%8B%9F%E7%AD%9B%E9%80%89%E7%A0%94%E7%A9%B6.html" rel="alternate" type="text/html" title="药物虚拟筛选研究(更新中)" /><published>2021-09-10T00:00:00+00:00</published><updated>2021-09-10T00:00:00+00:00</updated><id>https://hyacinth-yx.github.io/jekyll-theme-yat/analysis/2021/09/10/%E8%8D%AF%E7%89%A9%E8%99%9A%E6%8B%9F%E7%AD%9B%E9%80%89%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="https://hyacinth-yx.github.io/jekyll-theme-yat/analysis/2021/09/10/%E8%8D%AF%E7%89%A9%E8%99%9A%E6%8B%9F%E7%AD%9B%E9%80%89%E7%A0%94%E7%A9%B6.html">&lt;h1 id=&quot;药物虚拟筛选研究&quot;&gt;药物虚拟筛选研究&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-定义&quot;&gt;1 定义&lt;/h2&gt;
+
+&lt;p&gt;(总结于百度百科)&lt;strong&gt;虚拟筛选&lt;/strong&gt;(virtual screening，VS)也称计算机筛选，即在进行&lt;a href=&quot;https://baike.baidu.com/item/生物活性/5773318&quot;&gt;生物活性&lt;/a&gt;筛选之前，利用计算机软件模拟目标靶点与候选药物之间的相互作用，计算两者之间的亲和力大小，以降低实际筛选化合物数目，同时提高&lt;a href=&quot;https://baike.baidu.com/item/先导化合物/259345&quot;&gt;先导化合物&lt;/a&gt;发现效率。&lt;/p&gt;
+
+&lt;p&gt;(注：原文为“利用计算机上的&lt;a href=&quot;https://baike.baidu.com/item/分子对接/9987909&quot;&gt;分子对接&lt;/a&gt;软件模拟目标靶点与候选药物之间的相互作用”，但虚拟筛选不仅仅分子对接一种方式，故在此做一些修改。)&lt;/p&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;分子对接&lt;/strong&gt;(molecular docking)是通过&lt;a href=&quot;https://baike.baidu.com/item/受体/454383&quot;&gt;受体&lt;/a&gt;的特征以及受体和药物分子之间的相互作用方式来进行药物设计的方法。主要研究分子间(如配体和受体)相互作用,并预测其结合模式和亲合力的一种理论模拟方法.近年来,分子对接方法已成为计算机辅助药物研究领域的一项重要&lt;a href=&quot;https://baike.baidu.com/item/技术/832247&quot;&gt;技术&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;先导化合物&lt;/strong&gt;（lead compound）简称先导物，是通过各种途径和手段得到的具有某种生物活性和&lt;a href=&quot;https://baike.baidu.com/item/化学结构&quot;&gt;化学结构&lt;/a&gt;的化合物，用于进一步的结构改造和修饰，是现代新药研究的出发点。&lt;/p&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;应用场景&lt;/strong&gt;：新药研发&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;药物研发一般流程&lt;/strong&gt;：功能基因研究 -&amp;gt; 靶点发现 -&amp;gt; 靶标确证 -&amp;gt; &lt;strong&gt;先导化合物发现 -&amp;gt; 先导化合物优化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; 临床前研究 -&amp;gt; 临床研究 -&amp;gt; 市场&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;虚拟筛选研究主体&lt;/strong&gt;：化合物、蛋白质、DNA、RNA&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;先导化合物筛选方式&lt;/strong&gt;(&lt;a href=&quot;https://wenku.baidu.com/view/f69f699e81c758f5f61f67bb.html&quot;&gt;参考&lt;/a&gt;)：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;高通量筛选(体外活性测试、命中率0.01%-0.001%、假阴性高、需先有大量化合物)&lt;/li&gt;
+  &lt;li&gt;虚拟筛选(计算机模拟分析、命中率2%-24%、有限化合物测试)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;虚拟筛选的方式&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;药效团筛选（基于小分子结构的筛选）通过分析一个或多个活性小分子的药效特征，推纳概括出使得分子具有活性的重要药效基团特征。计算量小&lt;/li&gt;
+  &lt;li&gt;分子对接（基于药物作用机理的筛选）基于靶标蛋白结构的药物筛选方式，通过小分子化合物与靶标进行分子对接，综合分析得分及空间构象情况。&lt;/li&gt;
+  &lt;li&gt;De Novo化合物设计（根据蛋白质结构进行全新药物设计）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;瓶颈&lt;/strong&gt;：分子种类繁多，对接效率太低，计算力要求高&lt;/p&gt;
+
+&lt;h2 id=&quot;2-相关&quot;&gt;2 相关&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;化合物常用数据库&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/blogimg/1-Database.png&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;说明：在做分子对接、药效团筛选或形状相似性筛选时，一般选取多样性较好的小分子数据库，ZINC免费数据库收录了ChemBridge、Enamine和PubChem等众多化合物数据，可全部免费下载并可下载单个供应商的数据。包括片段库、类药性库、药物库、天然产物库等。柏含生物科技提供下载服务和小分子优化工作，并构建了天然产物数据库、中药材数据库、药物库等，这些化合物含有供应商、分子量、可旋转键数、氢键受体及供体等信息。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-论文阅读&quot;&gt;3 论文阅读&lt;/h2&gt;
+
+&lt;h3 id=&quot;查询方向基于结构的虚拟筛选---structure-based-virtual-screening-sbvs&quot;&gt;&lt;strong&gt;查询方向：基于结构的虚拟筛选 - Structure-based virtual screening (SBVS)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2102.06086&quot;&gt;ParaVS: A Simple, Fast, Efficient and Flexible Graph Neural Network Framework for Structure-Based Virtual Screening&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;name:”2102.06086”&lt;/p&gt;
+
+&lt;p&gt;word: in silico technique[采用计算机方法的] 、molecular docking[分子对接]、simultaneously[同时]、in-house[内部的]、Decoys[诱饵]、absolute binding affinity[绝对结合亲和力]、siamese network[孪生神经网络]、cutoff distance[?]、denote[表示]、readout function[读出函数，图神经网络的专有名词]、Empirical functions[经验分布函数]、Coefficient of Variation[变异系数]、standard deviation[标准差]、dispersion[分散]、amino[氨基]&lt;/p&gt;
+
+&lt;p&gt;摘要简述：基于结构的虚拟筛选(SBVS)是一种有前途的计算机电脑模拟技术，他将计算方法与药物设计结合起来。SBVS广泛采用的一种方法是分子对接。但分子对接很难被同时计算的高效而准确，因为经典力学评分函数是用来近似的，这种方法很难达到量子力学的精度。为了减少计算蛋白-受体评分过程的开销，并用数据驱动的方式来提高评分函数的准确度，我们提出一种基于对接的SBVS方法，此外，还有一种深度学习的非对接方法，这种方法可以避免计算对接过程的开销。然后，我们尝试合并两种方法到一个容易使用的框架中，ParaVS，这位研究者们提供了两种选择。图神经网络被部署在ParaVS上，并且我们解释了我们内部的GNN，HagNet，是怎样建模配体和分子靶标的。为了验证我们的方法，我们在两个数据集上采用了交叉验证的方法，一个是开放数据集Directory of Useful Decoys: Enhanced (DUD.E)，一个是没有计算生成的人工诱饵的内部专有数据集(NoDecoy)。在DUD.E我们达到了最先进的AUC为0.981和最先进的富集因子为36.2的2%；在NoDecoy中我们达到了AUC为0.974.我们进一步完成了一个开放数据集的预测，Enamine REAL Database(RDB), 它包含了超过1.36百万分子，在我们的非对接方法中使用了4050核心时数。在ParaVS-ND中大约3.6e5分子每核心时，这个时间比卷积对接方法快16000倍。这个试验说明了ParaVS是准确并且计算高效的，并且可以在虚拟筛选方面泛化到不同的分子靶标。此外，ParaVS简单而灵活，因为大多数AI组件可以随着特定的需求和未来的发展来替代和升级。ParaVS-ND发布在http://aidd.ghddi.org/sbvs/&lt;/p&gt;
+
+&lt;p&gt;关键信息：&lt;/p&gt;
+
+&lt;p&gt;基于对接的虚拟筛选太费时间和算力，结果也不是非常可靠，高质量的数据也很有限。为此提出非对接的框架。一种常见的框架是把配体和蛋白整合到一个单独的神经网络中而不用知道三维结合结构。Karimi的DeepAffnity，用蛋白质序列和简化的分子字符串(SMILES, simplified molecular-input line-entry system)作为输入。Gao开发了一个由RNN和GNN构成的孪生神经网络(siamese network)，并且他们也把注意力机制加入了他们的模型来提高泛化能力。&lt;/p&gt;
+
+&lt;p&gt;GNN使用方面，将配体和蛋白建模为图，其中的节点是原子，边被简单定义成&lt;strong&gt;cutoff distance&lt;/strong&gt;(&lt;a href=&quot;https://en.wikipedia.org/wiki/Cutoff_(physics)&quot;&gt;截止距离？&lt;/a&gt;) c，然后GNN通过原子嵌入层$h_u \in \mathbb{R}^H$来表示原子，通过边嵌入层$e_{uv} \in \mathbb{R}^H$来表示边。该领域的大多数GNN模型都可以被总结为两阶段结构，为人熟知的有消息传递架构：1. 通过在每层邻居节点的聚合来在邻居见传播节点信息。2.通过一个读出函数(read-out function)来形成整个图的表示，每层可以被写成：
+\(\vec{h}_v^{(l+1)} = f_\theta^{(l)}(\vec{h}_v^{(l)},\{\vec{x}_e:e\in \mathcal{N}_E(v)\},\{\vec{h}_{v^{\prime}}^{(l)}:v^{\prime}\in\mathcal{N}_V(v)\}) \tag{1}\)
+其中 $\vec{h}&lt;em&gt;v^{(l)}$ 是节点v在l层的特征向量。 $\mathcal{N}_V(v)$ 和 $\mathcal{N}_E(v)$ 分别表示连接到节点v的节点和边的集合， $f&lt;/em&gt;{\theta}^{(l)}$ 是参数化函数。读出函数$R$通过池化从最后一次迭代$K$中得的节点特征，来获得整个图的表示$h_G$ :
+\(\vec{h}\_G = R\(\{h\_v^K | v \in G\}) \tag{2}\)
+在该论文实践中使用自建GNN，HagNet，被描述为：
+\(\vec{h}_v^{(l+1)} = \phi(concat(h_v^l,(\sum_{u\in\mathcal{N}(v)}{h^l_u}+max_{u\in\mathcal{N}(v)}h^l_u))) \tag{3}\)
+其中$\phi$是多层感知机神经网络和concat层连接特征。&lt;/p&gt;
+
+&lt;h3 id=&quot;查询方向美白靶点蛋白&quot;&gt;&lt;strong&gt;查询方向：美白靶点蛋白&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;（+）MC1R黑色素合成膜蛋白&lt;/p&gt;
+
+&lt;h3 id=&quot;查询方向数据库-target-decoy-ligand&quot;&gt;查询方向：数据库 target decoy ligand&lt;/h3&gt;
+
+&lt;p&gt;《Decoys Selection in Benchmarking Datasets: Overview and Perspectives》(基准数据集中的诱饵选择：概述和观点)&lt;/p&gt;
+
+&lt;p&gt;https://www.frontiersin.org/articles/10.3389/fphar.2018.00011/full&lt;/p&gt;
+
+&lt;p&gt;Réau M, Langenfeld F, Zagury J F, et al. Decoys selection in benchmarking datasets: overview and perspectives[J]. Frontiers in pharmacology, 2018, 9: 11.&lt;/p&gt;
+
+&lt;p&gt;摘要：虚拟筛选 (VS) 旨在前瞻性地从大型化合物集合中帮助识别潜在的命中(hit)，即能够与给定目标相互作用并可能调节其活性的化合物。在各种方法中，选择最适合所研究的query/target系统的protocol至关重要，他能产生最可靠输出结果。为此，通常通过计算 VS 方法在基准数据集中检索活性化合物的能力来评估和比较 VS 方法的性能。&lt;strong&gt;基准数据集&lt;/strong&gt;&lt;u&gt;包含已知活性化合物的子集以及诱饵的子集&lt;/u&gt;，即假定的非活性分子。活性和诱饵化合物子集的组成对于限制 VS 方法评估中的偏差至关重要。在这次综述中，我们专注于多年来发生显着变化的诱饵化合物的选择，从随机选择的化合物到高度定制或实验验证的负例化合物。我们首先概述了基准数据库中诱饵选择的演变以及倾向于最小化引入偏差的当前基准数据库，其次，我们提出了基准数据集的选择和设计建议。&lt;/p&gt;
+
+&lt;p&gt;terms：Computer-aided drug design (CADD) ，&lt;/p&gt;
+
+&lt;p&gt;相关信息提取：&lt;/p&gt;
+
+&lt;p&gt;VS approaches can be Ligand-Based (LBVS) when they rely only on the structure/properties of known active compounds to retrieve promising molecules from compound collections (using similarity search, QSAR or 2D/3D pharmacophore, etc.), or Structure-Based (SBVS) if the structural information of the target is used (like in molecular docking studies).&lt;/p&gt;
+
+&lt;h2 id=&quot;4-开源数据库探索&quot;&gt;4 开源数据库探索&lt;/h2&gt;
+
+&lt;h3 id=&quot;duee&quot;&gt;DUE.E&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;NAME&lt;/strong&gt;: Directory of Useful Decoys - Enhanced&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ABOUT&lt;/strong&gt;: DUD-E is designed to help benchmark molecular docking programs by providing challenging decoys. It contains:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;22,886 active compounds and their affinities against 102 targets, an average of 224 ligands per target.&lt;/li&gt;
+  &lt;li&gt;50 decoys for each active having similar physico-chemical properties but dissimilar 2-D topology.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hyacinth-YX</name></author><category term="Analysis" /><category term="虚拟筛选" /><category term="药物" /><category term="生物" /><category term="化学" /><category term="人工智能" /><summary type="html">药物虚拟筛选研究</summary></entry></feed>
